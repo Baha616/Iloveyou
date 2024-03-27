@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(ellipse at center, #eee 0%,HotPink 100%);
+}
+i {
+    font-variant: normal;
+}
+.hearts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+    object-fit: contain;
+}
+.hearts i {
+    font-style: normal;
+    font-size: 5vw;
+    transform: rotate(0deg);
+}
